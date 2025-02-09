@@ -36,11 +36,14 @@ BUCKET_NAME="franks-bucket-name"
 
 ## 🛳️ DevOps : TODOS
 
--
--
--
--
--
+1. **Containerization:** Containerize both `ui` & `api` with `Dockerfiles`.
+2. **CI/CD:** Write a _CI/CD pipeline_ to `automate the deployment` of the containers _when source code is changed_.
+3. **Kubernetes YAML files:** Create deployment and service YAML files for both ui & api.
+4. **Kubernetes Setup:** Set up a `Kubernetes service` within my _cloud provider_ (Azure AKS or AWS EKS. TBD).
+5. **Container Deployment:** `Deploy` the ui, api, & storage containers to the _Kubernetes cluster_.
+6. **Interconnectivity:** Ensure the containers are `interconnected` for _seamless data flow_.
+7. **CI/CD Implementation:** Set up `CI/CD pipeline` to deploy the containers and app _after source changes_ (GitHub Actions or Azure Pipelines).
+8. **Monitoring:** Set up `monitoring` for containers to _track key metrics and insights_ (Azure monitor for AKS, AWS Cloudwatch container insights for EKS, or _Grafana_).
 
 ![image of the nextjs web app showing QR header, input, and the generated QR code](local-ui.png)
 
