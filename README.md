@@ -36,7 +36,7 @@ BUCKET_NAME="franks-bucket-name"
 
 ## 🛳️ DevOps : TODOS
 
-1. [x] **Containerization:** Containerize both `ui` & `api` with `Dockerfiles`. 
+1. [x] ~~**Containerization:** Containerize both `ui` & `api` with `Dockerfiles`.~~ 
 2. [ ] **CI/CD:** Write a _CI/CD pipeline_ to `automate the deployment` of the containers _when source code is changed_.
 3. [ ] **Kubernetes YAML files:** Create deployment and service YAML files for both ui & api.
 4. [ ] **Kubernetes Setup:** Set up a `Kubernetes service` within my _cloud provider_ (Azure AKS or AWS EKS. TBD).
